@@ -4,6 +4,7 @@ import hangmanProject from '../assets/projects/hangman-project.png'
 import hotelReservation from '../assets/projects/hotel-reservation-project.png'
 import measureConverter from '../assets/projects/measure-converter.png'
 import soccerfieldComplexImg from '../assets/projects/soccerfield-complex-project.png'
+import walletProjectImg from '../assets/projects/wallet-project.png'
 
 export const HERO_CONTENT = `Hi, I am Ezequiel Massa, a FullStack Developer. The main stack I use is React Js, Node Js, Express Js, Mongo DB, I have practical
 experience creating websites and rest APIs. Also participate in team projects.
@@ -43,6 +44,16 @@ export const PROJECTS = [
 		technologies: ['ReactJS', 'NodeJS', 'Express', 'MongoDB'],
 		liveLink: 'https://alangulo.onrender.com/',
 		documentationLink: 'https://github.com/EzequielMassa/AlAnguloFrontend',
+	},
+	{
+		title: 'FULL STACK Wallet',
+		image: walletProjectImg,
+		description:
+			'Generic wallet that allows you to create new users, new accounts, make transactions between accounts and follow the movements of the month/year',
+		technologies: ['Angular', 'Java', 'Spring Boot', 'Mysql'],
+		liveLink: 'https://wallet-emdev.web.app/auth/login',
+		documentationLink:
+			'https://github.com/EzequielMassa/wallet-frontend-angular',
 	},
 	{
 		title: 'FULL STACK PORTFOLIO',
@@ -110,6 +121,16 @@ export const PROYECTOS = [
 		technologies: ['ReactJS', 'NodeJS', 'Express', 'MongoDB'],
 		liveLink: 'https://alangulo.onrender.com/',
 		documentationLink: 'https://github.com/EzequielMassa/AlAnguloFrontend',
+	},
+	{
+		title: 'FULL STACK Wallet',
+		image: walletProjectImg,
+		description:
+			'Billetera genérica que permite crear nuevos usuarios, nuevas cuentas, realizar transacciones entre cuentas y seguir los movimientos del mes/año',
+		technologies: ['Angular', 'Java', 'Spring Boot', 'Mysql'],
+		liveLink: 'https://wallet-emdev.web.app/auth/login',
+		documentationLink:
+			'https://github.com/EzequielMassa/wallet-frontend-angular',
 	},
 	{
 		title: 'FULL STACK PORTFOLIO',
