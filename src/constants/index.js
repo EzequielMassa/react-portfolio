@@ -17,6 +17,7 @@ export const EDUCATIONS = [
 		year: '2023 - 2024',
 		institution: 'Bootcamp Rolling Code School',
 		certificate: 'Full Stack Developer',
+		link: 'https://certs.rollingcodeschool.com//ZXplcXVpZWxtYXNzYTg3QGdtYWlsLmNvbQ==-1716297657210-1.png',
 		technologies: ['ReactJS', 'NodeJS', 'Express', 'MongoDB'],
 	},
 	{
