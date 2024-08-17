@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion'
+import { FaFileDownload } from 'react-icons/fa'
+import cv from '../assets/docs/Cv-Ezequiel-Massa-FullStack-Developer.pdf'
+import resume from '../assets/docs/Resume-Ezequiel-Massa-FullStack-Developer.pdf'
 import profilePic from '../assets/ezequiel-massa.png'
 import { CONTENIDO_HERO, HERO_CONTENT } from '../constants'
 import { useLenguageContext } from '../context/LanguageContext'
@@ -27,7 +30,7 @@ function Hero() {
 							variants={container(0)}
 							initial='hidden'
 							animate='visible'
-							className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
+							className='pb-8 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
 							Ezequiel Massa
 						</motion.h1>
 						<motion.span
@@ -44,6 +47,13 @@ function Hero() {
 							className='my-2 max-w-xl py-6 font-light tracking-tighter'>
 							{language === 'esp' ? CONTENIDO_HERO : HERO_CONTENT}
 						</motion.p>
+						<a
+							className='flex justify-center items-center  text-purple-700 hover:text-purple-500 text-sm pb-2'
+							href={language === 'esp' ? cv : resume}
+							download>
+							{language === 'esp' ? 'Descargar CV' : 'Download Resume'}
+							<FaFileDownload className='inline ms-2 text-base' />
+						</a>
 					</div>
 				</div>
 				<div className='w-full lg:w-1/2 lg:p-8'>

@@ -12,7 +12,7 @@ function App() {
 	return (
 		<div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
 			<Toaster richColors position='bottom-center' />
-			<div className='absolute top-56 md:top-40 right-10 z-10'>
+			<div className='absolute top-32 md:top-40 right-10 z-10'>
 				<LanguageSelector />
 			</div>
 			<div className='fixed top-0 -z-10 h-full w-full'>
