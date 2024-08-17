@@ -4,13 +4,12 @@ import hangmanProject from '../assets/projects/hangman-project.png'
 import hotelReservation from '../assets/projects/hotel-reservation-project.png'
 import measureConverter from '../assets/projects/measure-converter.png'
 import soccerfieldComplexImg from '../assets/projects/soccerfield-complex-project.png'
-import walletProjectImg from '../assets/projects/wallet-project.png'
 
-export const HERO_CONTENT = `Hi, I am Ezequiel Massa, a FullStack Developer. The main stack I use is React Js, Node Js, Express Js, Mongo DB, I have practical
-experience creating websites and rest APIs. Also participate in team projects.
+export const HERO_CONTENT = `Hello, my name is Ezequiel Massa, I am a FullStack Developer.
+The main technology stack I use is: React Js, Node Js, Express Js, Mongo DB. I have experience in creating websites and rest APIs. Also participate in team projects.
 `
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.I have worked with a variety of technologies, including React, Angular, Node.js, MySQL, Express, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and easy-to-use web applications. I've worked with a variety of technologies, including React, Node.js, Express, MongoDB, Angular, Java, Spring Boot, and MySQL. I continually strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open source projects.`
 
 export const EDUCATIONS = [
 	{
@@ -47,20 +46,10 @@ export const PROJECTS = [
 		documentationLink: 'https://github.com/EzequielMassa/AlAnguloFrontend',
 	},
 	{
-		title: 'FULL STACK Wallet',
-		image: walletProjectImg,
-		description:
-			'Generic wallet that allows you to create new users, new accounts, make transactions between accounts and follow the movements of the month/year',
-		technologies: ['Angular', 'Java', 'Spring Boot', 'Mysql'],
-		liveLink: 'https://wallet-emdev.web.app/auth/login',
-		documentationLink:
-			'https://github.com/EzequielMassa/wallet-frontend-angular',
-	},
-	{
-		title: 'FULL STACK PORTFOLIO',
+		title: 'FULL STACK PORTFOLIO CREATOR ANGULAR',
 		image: fullstackPortfolioAngular,
 		description:
-			'Final project for the "Argentina Programa" bootcamp where it was requested to develop a fullstack web portfolio.',
+			'Final project for the "Argentina Programa" bootcamp where it was requested to develop a fullstack web portfolios creator using Angular.',
 		technologies: ['Angular', 'Java', 'Spring Boot', 'Mysql'],
 		liveLink: 'https://portfolio-emdev.firebaseapp.com/emdev',
 		documentationLink:
@@ -107,11 +96,10 @@ export const PROJECTS = [
 	},
 ]
 
-export const CONTENIDO_HERO = `Hola, soy Ezequiel Massa, Desarrollador FullStack. El  principal stack que uso es React Js, Node Js, Express Js, Mongo DB, tengo prácticas
-Experiencia en la creación de sitios web y API rest. También participe en proyectos de equipo.
+export const CONTENIDO_HERO = `Hola, me llamo Ezequiel Massa, soy un Programador FullStack. El principal stack tecnológico que uso es : React Js, Node Js, Express Js, Mongo DB. tengo experiencia en la creación de sitios web y API rest. También participe en proyectos de equipo.
 `
 
-export const TEXTO_ABOUT = `Soy un desarrollador full stack dedicado y versátil con pasión por crear aplicaciones web eficientes y fáciles de usar. He trabajado con una variedad de tecnologías, incluidas React, Angular, Node.js, MySQL, Express y MongoDB. Mi viaje en el desarrollo web comenzó con una profunda curiosidad por cómo funcionan las cosas y ha evolucionado hasta convertirse en una carrera en la que me esfuerzo continuamente por aprender y adaptarme a nuevos desafíos. Prospero en entornos colaborativos y disfruto resolviendo problemas complejos para ofrecer soluciones de alta calidad. Aparte de la codificación, disfruto mantenerme activo, explorar nuevas tecnologías y contribuir a proyectos de código abierto.`
+export const TEXTO_ABOUT = `Soy un desarrollador full stack dedicado y versátil con pasión por crear aplicaciones web eficientes y fáciles de usar. He trabajado con una variedad de tecnologías, incluidas React, Node.js, Express , MongoDB , Angular , Java , Spring Boot y MySQL. Me esfuerzo continuamente por aprender y adaptarme a nuevos desafíos. Prospero en entornos colaborativos y disfruto resolviendo problemas complejos para ofrecer soluciones de alta calidad. Aparte de la codificación, disfruto mantenerme activo, explorar nuevas tecnologías y contribuir a proyectos de código abierto.`
 
 export const PROYECTOS = [
 	{
@@ -123,21 +111,12 @@ export const PROYECTOS = [
 		liveLink: 'https://alangulo.onrender.com/',
 		documentationLink: 'https://github.com/EzequielMassa/AlAnguloFrontend',
 	},
+
 	{
-		title: 'FULL STACK Wallet',
-		image: walletProjectImg,
-		description:
-			'Billetera genérica que permite crear nuevos usuarios, nuevas cuentas, realizar transacciones entre cuentas y seguir los movimientos del mes/año',
-		technologies: ['Angular', 'Java', 'Spring Boot', 'Mysql'],
-		liveLink: 'https://wallet-emdev.web.app/auth/login',
-		documentationLink:
-			'https://github.com/EzequielMassa/wallet-frontend-angular',
-	},
-	{
-		title: 'FULL STACK PORTFOLIO',
+		title: 'FULL STACK PORTFOLIO CREATOR ANGULAR',
 		image: fullstackPortfolioAngular,
 		description:
-			'Proyecto final para el bootcamp "Argentina Programa" donde se solicitó desarrollar un portafolio web fullstack.',
+			'Proyecto final para el bootcamp "Argentina Programa" donde se solicitó desarrollar un creador de portafolios web fullstacks.',
 		technologies: ['Angular', 'Java', 'Spring Boot', 'Mysql'],
 		liveLink: 'https://portfolio-emdev.firebaseapp.com/emdev',
 		documentationLink:
