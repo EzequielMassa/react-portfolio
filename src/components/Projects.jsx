@@ -42,7 +42,7 @@ function Projects() {
 							{project.technologies.map((tech, index) => (
 								<span
 									key={index}
-									className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-teal-300'>
+									className='mr-2 my-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-teal-300 inline-block'>
 									{tech}
 								</span>
 							))}

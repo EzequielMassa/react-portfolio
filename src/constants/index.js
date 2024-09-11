@@ -3,6 +3,7 @@ import fullstackPortfolioAngular from '../assets/projects/fullstack-portfolio-an
 import hangmanProject from '../assets/projects/hangman-project.png'
 import hotelReservation from '../assets/projects/hotel-reservation-project.png'
 import measureConverter from '../assets/projects/measure-converter.png'
+import shoeshopImg from '../assets/projects/ShoeShop.png'
 import soccerfieldComplexImg from '../assets/projects/soccerfield-complex-project.png'
 
 export const HERO_CONTENT = `Hello, my name is Ezequiel Massa, I am a FullStack Developer.
@@ -36,6 +37,24 @@ export const EDUCATIONS = [
 ]
 
 export const PROJECTS = [
+	{
+		title: 'FULL STACK Ecommerce ShoeShop',
+		image: shoeshopImg,
+		description:
+			'E-Commerce Store which has an admin dashboard and a storefront.',
+		technologies: [
+			'Next.js',
+			'Kinde-Auth',
+			'PostgreSQL',
+			'Prisma',
+			'Stripe',
+			'Tailwind',
+			'ShadcnUI',
+			'Upstash',
+		],
+		liveLink: 'https://shoeshop-cyan.vercel.app/',
+		documentationLink: 'https://github.com/EzequielMassa/shoeshop',
+	},
 	{
 		title: 'FULL STACK M.E.R.N Soccer Field Complex',
 		image: soccerfieldComplexImg,
@@ -102,6 +121,23 @@ export const CONTENIDO_HERO = `Hola, me llamo Ezequiel Massa, soy un Programador
 export const TEXTO_ABOUT = `Soy un desarrollador full stack dedicado y versátil con pasión por crear aplicaciones web eficientes y fáciles de usar. He trabajado con una variedad de tecnologías, incluidas React, Node.js, Express , MongoDB , Angular , Java , Spring Boot y MySQL. Me esfuerzo continuamente por aprender y adaptarme a nuevos desafíos. Prospero en entornos colaborativos y disfruto resolviendo problemas complejos para ofrecer soluciones de alta calidad. Aparte de la codificación, disfruto mantenerme activo, explorar nuevas tecnologías y contribuir a proyectos de código abierto.`
 
 export const PROYECTOS = [
+	{
+		title: 'FULL STACK Ecommerce ShoeShop',
+		image: shoeshopImg,
+		description: 'E-Commerce Store con panel de administración y una tienda.',
+		technologies: [
+			'Next.js',
+			'Kinde-Auth',
+			'PostgreSQL',
+			'Prisma',
+			'Stripe',
+			'Tailwind',
+			'ShadcnUI',
+			'Upstash',
+		],
+		liveLink: 'https://shoeshop-cyan.vercel.app/',
+		documentationLink: 'https://github.com/EzequielMassa/shoeshop',
+	},
 	{
 		title: 'FULL STACK M.E.R.N Complejo canchas de futbol',
 		image: soccerfieldComplexImg,
