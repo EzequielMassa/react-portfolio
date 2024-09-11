@@ -2,7 +2,6 @@ import ecommerceProject from '../assets/projects/ecommerce-project.png'
 import fullstackPortfolioAngular from '../assets/projects/fullstack-portfolio-angular.png'
 import hangmanProject from '../assets/projects/hangman-project.png'
 import hotelReservation from '../assets/projects/hotel-reservation-project.png'
-import measureConverter from '../assets/projects/measure-converter.png'
 import shoeshopImg from '../assets/projects/ShoeShop.png'
 import soccerfieldComplexImg from '../assets/projects/soccerfield-complex-project.png'
 
@@ -104,15 +103,6 @@ export const PROJECTS = [
 		documentationLink:
 			'https://github.com/EzequielMassa/Challenge-Oracle-ONE-Hotel-Alura-JAVA-DB',
 	},
-	{
-		title: 'APP DESKTOP MEASUREMENT CONVERTER',
-		image: measureConverter,
-		description:
-			"Challenge for the 'Oracle ONE' bootcamp where it was requested to create a desktop application in Java that converts different types of units, following certain validations.",
-		technologies: ['Java'],
-		documentationLink:
-			'https://github.com/EzequielMassa/Challenge-Oracle-ONE-JAVA-Conversor-de-unidades',
-	},
 ]
 
 export const CONTENIDO_HERO = `Hola, me llamo Ezequiel Massa, soy un Programador FullStack. El principal stack tecnológico que uso es : React Js, Node Js, Express Js, Mongo DB. tengo experiencia en la creación de sitios web y API rest. También participe en proyectos de equipo.
@@ -187,14 +177,5 @@ export const PROYECTOS = [
 		technologies: ['Java', 'Mysql'],
 		documentationLink:
 			'https://github.com/EzequielMassa/Challenge-Oracle-ONE-Hotel-Alura-JAVA-DB',
-	},
-	{
-		title: 'APP DESKTOP MEASUREMENT CONVERTER',
-		image: measureConverter,
-		description:
-			"Proyecto para el bootcamp 'Oracle ONE' donde se solicitó crear una aplicación de escritorio en Java que convierta diferentes tipos de unidades, siguiendo ciertas validaciones.",
-		technologies: ['Java'],
-		documentationLink:
-			'https://github.com/EzequielMassa/Challenge-Oracle-ONE-JAVA-Conversor-de-unidades',
 	},
 ]
