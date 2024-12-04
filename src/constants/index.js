@@ -57,8 +57,8 @@ export const PROJECTS = [
 			"Tailwind",
 			"ShadcnUI",
 		],
-		liveLink: "https://invoiceapp-lovat.vercel.app",
-		documentationLink: "https://github.com/EzequielMassa/invoiceapp",
+		liveLink: "https://invoice-app-jade-rho.vercel.app",
+		documentationLink: "https://github.com/EzequielMassa/InvoiceApp",
 	},
 	{
 		title: "FULL STACK Ecommerce ShoeShop",
@@ -149,8 +149,8 @@ export const PROYECTOS = [
 			"Tailwind",
 			"ShadcnUI",
 		],
-		liveLink: "https://invoiceapp-lovat.vercel.app",
-		documentationLink: "https://github.com/EzequielMassa/invoiceapp",
+		liveLink: "https://invoice-app-jade-rho.vercel.app",
+		documentationLink: "https://github.com/EzequielMassa/InvoiceApp",
 	},
 	{
 		title: "FULL STACK Ecommerce ShoeShop",
