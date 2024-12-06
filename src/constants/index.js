@@ -5,6 +5,7 @@ import hotelReservation from "../assets/projects/hotel-reservation-project.png";
 import shoeshopImg from "../assets/projects/ShoeShop.png";
 import soccerfieldComplexImg from "../assets/projects/soccerfield-complex-project.png";
 import invoiceAppImg from "../assets/projects/invoiceapp-project.png";
+import stockAppImg from "../assets/projects/stockapp-project.png";
 
 export const HERO_CONTENT = `Hello, my name is Ezequiel Massa, I am a FullStack Developer.
 The main technology stack I use is: React Js, Node Js, Express Js, Mongo DB. I have experience in creating websites and rest APIs. Also participate in team projects.
@@ -45,11 +46,27 @@ export const EDUCATIONS = [
 
 export const PROJECTS = [
 	{
+		title: "Next.js - Stock Management App",
+		image: stockAppImg,
+		description: "Next.js stock management app using Tanstack table",
+		technologies: [
+			"Next.js",
+			"Typescript",
+			"Zustand",
+			"Tanstack Table",
+			"Tailwind",
+			"ShadcnUI",
+		],
+		liveLink: "https://stockapp-mu.vercel.app/",
+		documentationLink: "https://github.com/EzequielMassa/StockApp",
+	},
+	{
 		title: "FULL STACK Invoice App",
 		image: invoiceAppImg,
 		description: "Invoices App which includes a dashboard , emails and more.",
 		technologies: [
 			"Next.js",
+			"Typescript",
 			"AuthJS",
 			"PostgreSQL",
 			"Prisma",
@@ -67,6 +84,7 @@ export const PROJECTS = [
 			"E-Commerce Store which has an admin dashboard and a storefront.",
 		technologies: [
 			"Next.js",
+			"Typescript",
 			"Kinde-Auth",
 			"PostgreSQL",
 			"Prisma",
@@ -136,12 +154,28 @@ export const TEXTO_ABOUT = `Soy un desarrollador full stack dedicado y versátil
 
 export const PROYECTOS = [
 	{
+		title: "Next.js - App manejo de inventario",
+		image: stockAppImg,
+		description: "Next.js app de manejo de inventario usando Tanstack table",
+		technologies: [
+			"Next.js",
+			"Typescript",
+			"Zustand",
+			"Tanstack Table",
+			"Tailwind",
+			"ShadcnUI",
+		],
+		liveLink: "https://stockapp-mu.vercel.app/",
+		documentationLink: "https://github.com/EzequielMassa/StockApp",
+	},
+	{
 		title: "FULL STACK Invoice App",
 		image: invoiceAppImg,
 		description:
 			"Invoices App que incluye un dashboard, envió de emails y más.",
 		technologies: [
 			"Next.js",
+			"Typescript",
 			"AuthJS",
 			"PostgreSQL",
 			"Prisma",
@@ -158,6 +192,7 @@ export const PROYECTOS = [
 		description: "E-Commerce Store con panel de administración y una tienda.",
 		technologies: [
 			"Next.js",
+			"Typescript",
 			"Kinde-Auth",
 			"PostgreSQL",
 			"Prisma",
