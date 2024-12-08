@@ -6,6 +6,7 @@ import shoeshopImg from "../assets/projects/ShoeShop.png";
 import soccerfieldComplexImg from "../assets/projects/soccerfield-complex-project.png";
 import invoiceAppImg from "../assets/projects/invoiceapp-project.png";
 import stockAppImg from "../assets/projects/stockapp-project.png";
+import chatAppImg from "../assets/projects/chatapp-project.png";
 
 export const HERO_CONTENT = `Hello, my name is Ezequiel Massa, I am a FullStack Developer.
 The main technology stack I use is: React Js, Node Js, Express Js, Mongo DB. I have experience in creating websites and rest APIs. Also participate in team projects.
@@ -45,6 +46,25 @@ export const EDUCATIONS = [
 ];
 
 export const PROJECTS = [
+	{
+		title: "FullStack - M.E.R.N Realtime Chat App",
+		image: chatAppImg,
+		description:
+			"Realtime chat app using React.js, Node.js, Express, MongoDB and Socket.io",
+		technologies: [
+			"React.Js",
+			"Node.Js",
+			"Express.js",
+			"MongoDB",
+			"Socket.IO",
+			"JWT Auth",
+			"Zustand",
+			"Tailwindcss",
+			"DaisyUI",
+		],
+		liveLink: "https://chatapp-qhci.onrender.com",
+		documentationLink: "https://github.com/EzequielMassa/ChatApp",
+	},
 	{
 		title: "Next.js - Stock Management App",
 		image: stockAppImg,
@@ -153,6 +173,25 @@ export const CONTENIDO_HERO = `Hola, me llamo Ezequiel Massa, soy un Programador
 export const TEXTO_ABOUT = `Soy un desarrollador full stack dedicado y versátil con pasión por crear aplicaciones web eficientes y fáciles de usar. He trabajado con una variedad de tecnologías, incluidas React, Node.js, Express , MongoDB , Angular , Java , Spring Boot y MySQL. Me esfuerzo continuamente por aprender y adaptarme a nuevos desafíos. Prospero en entornos colaborativos y disfruto resolviendo problemas complejos para ofrecer soluciones de alta calidad. Aparte de la codificación, disfruto mantenerme activo, explorar nuevas tecnologías y contribuir a proyectos de código abierto.`;
 
 export const PROYECTOS = [
+	{
+		title: "FullStack - M.E.R.N App Chat en tiempo real",
+		image: chatAppImg,
+		description:
+			"App de chat en tiempo real usando React.js, Node.js, Express, MongoDB y Socket.io",
+		technologies: [
+			"React.Js",
+			"Node.Js",
+			"Express.js",
+			"MongoDB",
+			"Socket.IO",
+			"JWT Auth",
+			"Zustand",
+			"Tailwindcss",
+			"DaisyUI",
+		],
+		liveLink: "https://chatapp-qhci.onrender.com",
+		documentationLink: "https://github.com/EzequielMassa/ChatApp",
+	},
 	{
 		title: "Next.js - App manejo de inventario",
 		image: stockAppImg,
