@@ -53,7 +53,7 @@ function Hero() {
 						<a
 							className="flex justify-center items-center  text-purple-700 hover:text-purple-500 text-sm pb-2"
 							href={language === "esp" ? cv : resume}
-							download
+							download="Ezequiel Massa Full Stack Developer.pdf"
 						>
 							{language === "esp" ? "Descargar CV" : "Download Resume"}
 							<FaFileDownload className="inline ms-2 text-base" />
