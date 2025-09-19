@@ -1,6 +1,4 @@
 import ecommerceProject from "../assets/projects/ecommerce-project.png";
-import fullstackPortfolioAngular from "../assets/projects/fullstack-portfolio-angular.png";
-import hangmanProject from "../assets/projects/hangman-project.png";
 import hotelReservation from "../assets/projects/hotel-reservation-project.png";
 import shoeshopImg from "../assets/projects/ShoeShop.png";
 import soccerfieldComplexImg from "../assets/projects/soccerfield-complex-project.png";
@@ -126,16 +124,6 @@ export const PROJECTS = [
 		documentationLink: "https://github.com/EzequielMassa/AlAnguloFrontend",
 	},
 	{
-		title: "FULL STACK PORTFOLIO CREATOR ANGULAR",
-		image: fullstackPortfolioAngular,
-		description:
-			'Final project for the "Argentina Programa" bootcamp where it was requested to develop a fullstack web portfolios creator using Angular.',
-		technologies: ["Angular", "Java", "Spring Boot", "Mysql"],
-		liveLink: "https://portfolio-emdev.firebaseapp.com/emdev",
-		documentationLink:
-			"https://github.com/EzequielMassa/Frontend-Angular-Portfolio-ArgentinaPrograma",
-	},
-	{
 		title: "VANILLA E-COMMERCE WEB C.R.U.D",
 		image: ecommerceProject,
 		description:
@@ -145,16 +133,6 @@ export const PROJECTS = [
 			"https://ezequielmassa.github.io/Challenge-Ecommerce-C.R.U.D-Oracle-ONE/",
 		documentationLink:
 			"https://github.com/EzequielMassa/Challenge-Ecommerce-C.R.U.D-Oracle-ONE",
-	},
-	{
-		title: "VANILLA HANGMAN GAME WEB",
-		image: hangmanProject,
-		description:
-			"Challenge for the 'Oracle ONE' bootcamp where it was requested to create the classic hangman game following certain validations as well as a design provided in 'figma'.",
-		technologies: ["HTML", "CSS", "Javascript"],
-		liveLink: "https://ezequielmassa.github.io/Challenge-HangMan-ORACLE-one/",
-		documentationLink:
-			"https://github.com/EzequielMassa/Challenge-HangMan-ORACLE-one",
 	},
 	{
 		title: "APP DESKTOP HOTEL RESERVATIONS",
@@ -252,17 +230,6 @@ export const PROYECTOS = [
 		liveLink: "https://alangulo.onrender.com/",
 		documentationLink: "https://github.com/EzequielMassa/AlAnguloFrontend",
 	},
-
-	{
-		title: "FULL STACK PORTFOLIO CREATOR ANGULAR",
-		image: fullstackPortfolioAngular,
-		description:
-			'Proyecto final para el bootcamp "Argentina Programa" donde se solicitó desarrollar un creador de portafolios web fullstacks.',
-		technologies: ["Angular", "Java", "Spring Boot", "Mysql"],
-		liveLink: "https://portfolio-emdev.firebaseapp.com/emdev",
-		documentationLink:
-			"https://github.com/EzequielMassa/Frontend-Angular-Portfolio-ArgentinaPrograma",
-	},
 	{
 		title: "VANILLA E-COMMERCE WEB C.R.U.D",
 		image: ecommerceProject,
@@ -273,16 +240,6 @@ export const PROYECTOS = [
 			"https://ezequielmassa.github.io/Challenge-Ecommerce-C.R.U.D-Oracle-ONE/",
 		documentationLink:
 			"https://github.com/EzequielMassa/Challenge-Ecommerce-C.R.U.D-Oracle-ONE",
-	},
-	{
-		title: "VANILLA HANGMAN GAME WEB",
-		image: hangmanProject,
-		description:
-			"Proyecto para el bootcamp 'Oracle ONE' donde se solicitaba crear el clásico juego del ahorcado siguiendo ciertas validaciones así como un diseño proporcionado en 'figma'.",
-		technologies: ["HTML", "CSS", "Javascript"],
-		liveLink: "https://ezequielmassa.github.io/Challenge-HangMan-ORACLE-one/",
-		documentationLink:
-			"https://github.com/EzequielMassa/Challenge-HangMan-ORACLE-one",
 	},
 	{
 		title: "APP DESKTOP HOTEL RESERVATIONS",
